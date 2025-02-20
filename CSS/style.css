@@ -1,0 +1,166 @@
+
+body, html{
+    background-image: url('../IMG/Fundo_site.jpg');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; /* Fixa o fundo */
+    height: 100vh; 
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: #0f0c25;
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+}
+
+#login {
+    display: flex;
+    text-align: center;
+    justify-content:center; 
+    align-items: center;
+    width: 100%;
+}
+
+.caixa{
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 40px;
+}
+
+.email input{
+
+    margin-bottom: 12px;
+    border-radius: 30px;
+    width: 300px;
+    height: 30px;
+    padding-left: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #5d5d5f5d;
+    color:rgb(255, 255, 255);
+    border: none;
+}
+
+input::placeholder {
+    color: #ffffff; /* Cor desejada para o texto do placeholder */
+}
+
+.senha input{
+    margin-bottom: 12px;
+    border-radius: 30px;
+    width: 300px;
+    height: 30px;
+    padding-left: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #5d5d5f5d;
+    color:rgb(255, 255, 255);
+    border: none;
+}
+
+.name input{
+    margin-bottom: 12px;
+    border-radius: 30px;
+    width: 300px;
+    height: 30px;
+    padding-left: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #5d5d5f5d;
+    color:rgb(255, 255, 255);
+    border: none;
+}
+
+.senha input{
+    margin-bottom: 12px;
+    border-radius: 30px;
+    width: 300px;
+    height: 30px;
+    padding-left: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #5d5d5f5d;
+    color:rgb(255, 255, 255);
+    border: none;
+}
+
+.confirme_senha input{
+    margin-bottom: 12px;
+    border-radius: 30px;
+    width: 300px;
+    height: 30px;
+    padding-left: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #5d5d5f5d;
+    color:rgb(255, 255, 255);
+    border: none;
+}
+
+
+.endereco input{
+    margin-bottom: 12px;
+    border-radius: 30px;
+    width: 300px;
+    height: 30px;
+    padding-left: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #5d5d5f5d;
+    color:rgb(255, 255, 255);
+    border: none;
+}
+
+.telefone input{
+    margin-bottom: 12px;
+    border-radius: 30px;
+    width: 300px;
+    height: 30px;
+    padding-left: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #5d5d5f5d;
+    color:rgb(255, 255, 255);
+    border: none;
+}
+
+.entrar input{
+    cursor: pointer;
+    border-radius: 30px;
+    height: 50px;
+    width: 150px;
+    border: none;
+    background-color: rgb(255, 3, 3);
+    color:#0f0c25;
+    font-weight: bold;
+}
+
+
+
+
+/*.submit{
+    background-color: rgb(3, 255, 24);
+    color:whitesmoke;
+    border-radius: 30px;
+    height: 50px;
+    width: 150px;
+    font-weight: bold;
+    cursor: pointer;
+}*/
+
+
+.caixa img{
+    width: 200px;
+}
+
+
+
+
+.entrar a{
+    color: rgb(255, 11, 11);
+    font-weight: bold;
+}
